@@ -18,7 +18,7 @@ Input a word, listen the pronunciation from [forov](https://forvo.com/)!
 
 <p align="center">
   <a href="https://forvo.com/">
-    <img src="./images/logo.svg" alt="Logo" height="80">
+    <img src="./image/logo.svg" alt="Logo" height="80">
   </a>
 
   <h3 align="center">learning pronunciation</h3>
