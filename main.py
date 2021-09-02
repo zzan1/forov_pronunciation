@@ -22,10 +22,10 @@ if audio:
         audio_suffix = base64.b64decode(item.group(1).split(",")[1]).decode("utf-8")
         r_audio = requests.get(audio_base + audio_suffix, headers = header)
         if r_audio:
-            with open(r"C:\Users\24486\Music\cache/cache.mp3", "wb") as f:
+            with open(r"cache/cache.mp3", "wb") as f:
                 f.write(r_audio.content)
-            playsound.playsound(r"C:\Users\24486\Music\cache/cache.mp3")
-            os.remove(r"C:\Users\24486\Music\cache/cache.mp3")
+            playsound.playsound(r"cache/cache.mp3")
+            os.remove(r"cache/cache.mp3")
             break
             
 
